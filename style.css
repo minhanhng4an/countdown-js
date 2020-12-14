@@ -1,0 +1,23 @@
+/* Title */
+.title {
+  color: #16a085;
+}
+
+/* Countdown Component */
+.time {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Put two number and text in 2 separate lines */
+  justify-content: center; /* Centralize vertically */
+  align-items: center; /* Centralize horizontally */
+}
+
+/* Countdown Component Number */
+.time-num {
+  font-size: 60px;
+  color: #e74c3c;
+}
+
+/* Countdown Component Name */
+.time-text {
+  color: #7f8c8d;
+}
